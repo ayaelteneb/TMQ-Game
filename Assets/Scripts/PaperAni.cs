@@ -14,6 +14,12 @@ public class PaperAni : MonoBehaviour
     public void AnimatePaper()
     {
         animator.Play("PaperStartAnimation");
-        Debug.Log("playing paper animation");
+        animator.Play("Paper2Ani");
+        animator.Play("PaperAni3");
+        animator.Play("PaperAni4");
+        animator.Play("PaperAni5");
+        animator.Play("PaperAni6");
     }
+
+
 }
