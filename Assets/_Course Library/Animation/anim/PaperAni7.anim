@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PaperAni4
+  m_Name: PaperAni7
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,7 +19,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 90, z: 0}
+        value: {x: 0, y: 180, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -28,7 +28,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1.1666666
-        value: {x: 0, y: 90, z: -54.951}
+        value: {x: 0, y: 180, z: -35.424}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -45,7 +45,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 9.226, y: 14.69, z: 0.732}
+        value: {x: 21.16, y: 20.36, z: -5.92}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -54,7 +54,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1.1666666
-        value: {x: 8.312, y: 16.188, z: 0.556}
+        value: {x: 21.44, y: 20.67, z: -5.937}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -71,7 +71,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.1238946, y: 0.1238946, z: 0.1238946}
+        value: {x: 0.12, y: 0.12, z: 0.12}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -98,34 +98,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1.1666666
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: SM_scroll_Alpha_0
-    classID: 1
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -145,7 +117,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.r
-    path: SM_scroll_Alpha_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_m_scroll_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -173,7 +145,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.g
-    path: SM_scroll_Alpha_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_m_scroll_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -201,7 +173,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.b
-    path: SM_scroll_Alpha_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_m_scroll_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -229,36 +201,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.a
-    path: SM_scroll_Alpha_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_m_scroll_0
     classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1.1666666
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: SM_scroll_m_scroll_0
-    classID: 1
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -285,7 +229,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.r
-    path: SM_scroll_m_scroll_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_Alpha_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -313,7 +257,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.g
-    path: SM_scroll_m_scroll_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_Alpha_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -341,7 +285,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.b
-    path: SM_scroll_m_scroll_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_Alpha_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -369,7 +313,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.a
-    path: SM_scroll_m_scroll_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_Alpha_0
     classID: 23
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -402,70 +346,56 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 910340588
-      attribute: 2086281974
-      script: {fileID: 0}
-      typeID: 1
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 910340588
+      path: 1912592504
       attribute: 1941764792
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 191838255
-      attribute: 2086281974
-      script: {fileID: 0}
-      typeID: 1
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 191838255
+      path: 610639441
       attribute: 1941764792
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 910340588
+      path: 1912592504
       attribute: 1136458424
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 910340588
+      path: 1912592504
       attribute: 1404893880
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 910340588
+      path: 1912592504
       attribute: 1673329336
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 191838255
+      path: 610639441
       attribute: 1136458424
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 191838255
+      path: 610639441
       attribute: 1404893880
       script: {fileID: 0}
       typeID: 23
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 191838255
+      path: 610639441
       attribute: 1673329336
       script: {fileID: 0}
       typeID: 23
@@ -498,7 +428,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 9.226
+        value: 21.16
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -507,7 +437,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.1666666
-        value: 8.312
+        value: 21.44
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -526,7 +456,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 14.69
+        value: 20.36
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -535,7 +465,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.1666666
-        value: 16.188
+        value: 20.67
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -554,7 +484,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.732
+        value: -5.92
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -563,7 +493,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.1666666
-        value: 0.556
+        value: -5.937
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -610,7 +540,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 90
+        value: 180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -619,7 +549,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.1666666
-        value: 90
+        value: 180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -647,7 +577,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.1666666
-        value: -54.951
+        value: -35.424
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -666,7 +596,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1238946
+        value: 0.12
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -694,7 +624,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1238946
+        value: 0.12
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -722,7 +652,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1238946
+        value: 0.12
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -751,34 +681,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1.1666666
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: SM_scroll_Alpha_0
-    classID: 1
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -798,7 +700,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.r
-    path: SM_scroll_Alpha_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_m_scroll_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -826,7 +728,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.g
-    path: SM_scroll_Alpha_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_m_scroll_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -854,7 +756,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.b
-    path: SM_scroll_Alpha_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_m_scroll_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -882,36 +784,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.a
-    path: SM_scroll_Alpha_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_m_scroll_0
     classID: 23
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1.1666666
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsActive
-    path: SM_scroll_m_scroll_0
-    classID: 1
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -938,7 +812,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.r
-    path: SM_scroll_m_scroll_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_Alpha_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -966,7 +840,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.g
-    path: SM_scroll_m_scroll_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_Alpha_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -994,7 +868,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.b
-    path: SM_scroll_m_scroll_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_Alpha_0
     classID: 23
     script: {fileID: 0}
   - curve:
@@ -1022,7 +896,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._BaseColor.a
-    path: SM_scroll_m_scroll_0
+    path: Sketchfab_model/e72baad4b1db489e914d0b90fae95f7c.fbx/RootNode/SM_scroll/SM_scroll_Alpha_0
     classID: 23
     script: {fileID: 0}
   m_EulerEditorCurves:

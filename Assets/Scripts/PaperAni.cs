@@ -19,6 +19,9 @@ public class PaperAni : MonoBehaviour
         animator.Play("PaperAni4");
         animator.Play("PaperAni5");
         animator.Play("PaperAni6");
+        animator.Play("PaperAni7");
+        animator.Play("PaperAni8");
+
     }
 
 
