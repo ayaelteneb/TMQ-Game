@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5768826, g: 0.65547615, b: 0.7353808, a: 1}
+  m_IndirectSpecularColor: {r: 0.57166827, g: 0.6539721, b: 0.7375689, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6599,6 +6599,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8053705408289837585}
+        m_TargetAssemblyTypeName: BlockAni, Assembly-CSharp
+        m_MethodName: AnimateBlock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -8710,6 +8722,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8485173161831666211}
+        m_TargetAssemblyTypeName: BlockAni, Assembly-CSharp
+        m_MethodName: AnimateBlock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -9297,6 +9321,18 @@ MonoBehaviour:
       - m_Target: {fileID: 8457383534185582444}
         m_TargetAssemblyTypeName: AppearBlock, Assembly-CSharp
         m_MethodName: RevealNextBlock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8457383534185582446}
+        m_TargetAssemblyTypeName: BlockAni, Assembly-CSharp
+        m_MethodName: AnimateBlock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10451,6 +10487,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 9014776604819937230}
+        m_TargetAssemblyTypeName: BlockAni, Assembly-CSharp
+        m_MethodName: AnimateBlock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -10964,6 +11012,18 @@ MonoBehaviour:
       - m_Target: {fileID: 8628502785236505284}
         m_TargetAssemblyTypeName: AppearBlock, Assembly-CSharp
         m_MethodName: RevealNextBlock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8628502785236505286}
+        m_TargetAssemblyTypeName: BlockAni, Assembly-CSharp
+        m_MethodName: AnimateBlock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13120,6 +13180,18 @@ MonoBehaviour:
       - m_Target: {fileID: 7041628270509805702}
         m_TargetAssemblyTypeName: AppearBlock, Assembly-CSharp
         m_MethodName: RevealNextBlock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7041628270509805704}
+        m_TargetAssemblyTypeName: BlockAni, Assembly-CSharp
+        m_MethodName: AnimateBlock
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23760,7 +23832,7 @@ PrefabInstance:
     - target: {fileID: 5004573187976347729, guid: ff4a9add7d29444558f73259845dfb8e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5666128774099666291, guid: ff4a9add7d29444558f73259845dfb8e,
         type: 3}
@@ -24157,7 +24229,7 @@ PrefabInstance:
     - target: {fileID: 8713154483959976707, guid: 2c47f688aafa84fc1992d98058fc0c2f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c47f688aafa84fc1992d98058fc0c2f, type: 3}
@@ -24864,7 +24936,7 @@ PrefabInstance:
     - target: {fileID: 8820160123927335128, guid: 1a3cbc24b0d9c4b05b82d3d58e2a2575,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a3cbc24b0d9c4b05b82d3d58e2a2575, type: 3}
@@ -26271,7 +26343,7 @@ PrefabInstance:
     - target: {fileID: 6509147970496911552, guid: c3ee9b258222444b3ba3f1f19ce28bbd,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6509147970496911555, guid: c3ee9b258222444b3ba3f1f19ce28bbd,
         type: 3}
@@ -27015,7 +27087,7 @@ PrefabInstance:
     - target: {fileID: 3460171599031651503, guid: ace95ec1e8e5f44538572c8417b2ad5b,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5556901203721174329, guid: ace95ec1e8e5f44538572c8417b2ad5b,
         type: 3}
@@ -27934,6 +28006,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7041628270509805704 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3946417895997456083, guid: c3ee9b258222444b3ba3f1f19ce28bbd,
+    type: 3}
+  m_PrefabInstance: {fileID: 4318318779851966533}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7041628270509805701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231fa1dd3312543ada2ca1d495ff1d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &7051820214277601444
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28609,6 +28693,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8053705408289837585 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6298043399566151518, guid: dc2a5519a88c844a181dd0ae06a6855f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8957750356197740830}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654449877324963810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231fa1dd3312543ada2ca1d495ff1d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &8089062574716827249
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28743,6 +28839,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8457383534185582446 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4941314690188200560, guid: ff4a9add7d29444558f73259845dfb8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 695015704192850102}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5536861098193311975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231fa1dd3312543ada2ca1d495ff1d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8485173161831666208 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8713154483959976707, guid: 2c47f688aafa84fc1992d98058fc0c2f,
@@ -28781,6 +28889,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8485173161831666211 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3851807923103626903, guid: 2c47f688aafa84fc1992d98058fc0c2f,
+    type: 3}
+  m_PrefabInstance: {fileID: 948627700244726051}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8485173161831666208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231fa1dd3312543ada2ca1d495ff1d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8513859189188515441
 GameObject:
   m_ObjectHideFlags: 0
@@ -29047,6 +29167,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8628502785236505286 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3669776797074836421, guid: 1a3cbc24b0d9c4b05b82d3d58e2a2575,
+    type: 3}
+  m_PrefabInstance: {fileID: 1857751506231943684}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183117986434642652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231fa1dd3312543ada2ca1d495ff1d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8632055957439193508
 Transform:
   m_ObjectHideFlags: 0
@@ -29486,7 +29618,7 @@ PrefabInstance:
     - target: {fileID: 7684718869972193020, guid: dc2a5519a88c844a181dd0ae06a6855f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8957750355873432646, guid: dc2a5519a88c844a181dd0ae06a6855f,
         type: 3}
@@ -29533,6 +29665,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9014776604819937230 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1768033443146336591, guid: ace95ec1e8e5f44538572c8417b2ad5b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5556901202817850212}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9014776604819937227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231fa1dd3312543ada2ca1d495ff1d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9113425439407607852
 GameObject:
   m_ObjectHideFlags: 0
