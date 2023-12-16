@@ -23,6 +23,4 @@ public class PaperAni : MonoBehaviour
         animator.Play("PaperAni8");
 
     }
-
-
 }
