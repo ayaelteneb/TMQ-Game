@@ -22,4 +22,10 @@ public class OpenChestAudio : MonoBehaviour
     {
         aud.Play();
     }
+
+    public void stopSound()
+    {
+        aud.Stop();
+        aud.enabled = false;
+    }
 }
