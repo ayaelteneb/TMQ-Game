@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class openHbutton2 : MonoBehaviour
 {
-   public GameObject gameObject;
+    public GameObject gameObject;
     bool active;
     public void OpenAndClose()
     {
